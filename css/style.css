@@ -17,3 +17,43 @@ a{
 a:hover {
   opacity: 1;
 }
+
+/*Header*/
+header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li:first-child, header nav ul li:last-child {
+  margin: 0;
+}
+
+header nav ul li a {
+  color: #191c03;
+}
+
+header img {
+  width: 200px;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+}
+
+/**/
